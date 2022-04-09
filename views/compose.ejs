@@ -1,0 +1,10 @@
+<%- include("partials/header") %>
+<h1>Compose</h1>
+<form class="" action="/" method="post">
+  <label for="titleInput">Title</label>
+  <input id="titleInput" class="form-control" type="text" name="postTitle" value="" autocomplete="off" placeholder="Title of your journal entry here">
+  <label for="postInput">Post</label>
+  <textarea id="postInput" name="postBody" rows="8" cols="80" class="form-control" autocomplete="off" placeholder="What did you do today?"></textarea>
+  <button class="btn btn-primary" type="submit" name="button">Publish</button>
+</form>
+<%- include("partials/footer") %>
